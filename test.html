@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<title>THE TECH BLOG</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<style>
+body  {
+    background-image: url('images/tech.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mySlides {display:none;}
+</style>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+</div>
+  <img class="mySlides" src="images/blog.jpg" style="width:100%">
+  <img class="mySlides" src="images/workstation.jpg" style="width:100%">
+  <img class="mySlides" src="images/security.jpg" style="width:100%">
+  <img class="mySlides" src="images/bitcoin.jpg" style="width:100%">
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="w3-panel w3-leftbar w3-teal w3-xxlarge w3-serif">
+  <p><i>Articles related to Computer, Communication, Science And Technology.</i></p>
+</div>  
+
+<div class ="w3-container">
+<div class="w3-card-4" style="width:49%">
+<a href="cybersecurity.html" target="_blank">
+<img src="images/cards/cybersecurity.png" alt="testing" style="width:100%"></a>
+<div class="w3-container w3-center w3-black">
+<p>The importance of cyber security in modern Internet age...</p>
+</div>
+</div>
+</div>
+
+<div class ="w3-container">
+<div class="w3-card-4 w3-right" style="width:49%">
+<a href="ecommerce.html" target="_blank">
+<img src="images/cards/ecommerce.jpg" alt="testing" style="width:100%"></a>
+<div class="w3-container w3-center w3-black">
+<p>Electronic commerce or Ecommerce, Revolution in trading...</p>
+</div>
+</div>
+</div>
+
+<div class ="w3-container">
+<div class="w3-card-4" style="width:49%">
+<a href="clients.html" target="_blank"><img src="images/cards/clients.jpg" alt="testing" style="width:100%"></a>
+<div class="w3-container w3-center w3-black">
+<p>Professional Clients Relationship, It's objectives and goals...</p>
+</div>
+</div>
+</div>
+
+<div class ="w3-container">
+<div class="w3-card-4 w3-right" style="width:49%">
+<a href="deepweb.html" target="_blank">
+<img src="images/cards/deepweb.jpg" alt="testing" style="width:100%"></a>
+<div class="w3-container w3-center w3-black">
+<p>Deep Web, The non-indexed part of the Web i.e 96% ...  </p>
+</div>
+</div>
+</div>
+
+<div class ="w3-container">
+<div class="w3-card-4" style="width:49%">
+<a href="drones.html">
+<img src="images/cards/drones.jpg" alt="testing" style="width:100%"></a>
+<div class="w3-container w3-center w3-black">
+<p>Drones: Unmanned Aerial Vehicles there Development and future</p>
+</div>
+</div>
+</div>
+
+<div class ="w3-container">
+<div class="w3-card-4 w3-right" style="width:49%">
+<a href="socialnetwork.html" target="_blank">
+<img src="images/cards/socialnetwork.jpg" alt="testing" style="width:100%"></a>
+<div class="w3-container w3-center w3-black">
+<p>Social Networking The Addiction Of Our Generation</p>
+</div>
+</div>
+</div>
+
+<div class="w3-panel w3-leftbar w3-teal w3-xxlarge w3-cursive">
+  <p><i>It's All About Exploring The Tech World</i></p>
+</div>  
+
+<div class="w3-container w3-center">
+<span class="w3-tag w3-round-large w3-xxlarge w3-white">
+ABOUT ME
+</span>
+</div>
+
+<div class="w3-row-padding w3-section">
+<div class="w3-col l6 ">
+<img src="images/camera.jpg" style="width:100%">
+</div>
+<div class="w3-col l6 w3-black w3-cursive ">
+<p><h3>It's all about the tech that's currently popular in the market.It's all about the tech that's currently popular in the market.It's all about the tech that's currently popular in the market.It's all about the tech that's currently popular in the market
+</h3></p>
+</div>
+</div>
+
+<div class="w3-container w3-grey w3-padding-64" style="width:100%" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> University Of Allahabad, Allahabad<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 8172815546<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: saurabhkumar4829@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center">
+<p>Created By <b>SAURABH KUMAR</b> </p>
+</div>
+
+</body>
+</html>
+
+
+
